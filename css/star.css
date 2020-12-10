@@ -4,6 +4,9 @@
     box-sizing: 0;
     font-family: 'Times New Roman', Times, serif;
 }
+p {
+    margin-bottom: .5rem;
+}
 .navPad {
     padding: 20px;
     font-size: larger;
@@ -190,65 +193,40 @@
 
 /* SPEAKER */
 .rowSpeaker {
-    text-align: center;
+    align-content: center;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
+   
 }
 .spk {
-    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .spkSec {
-    width: 20%;
-    height: 370px;
+    width: 23%;
+    height: 300px;
     position: relative;
     float: left;
+    margin: 0 10px;
 }
 .speakerDiv {
     position: absolute;
-    top: 240px;
-    left: 15px;
+    top: 270px;
+    left: 60px;
     background-color: #EAECCA;
-    padding: 10px 10px 0 10px;
-    border: 1px solid #285F6F;
-    border-radius: 5px;
-}
-.spkSecA {
-    width: 20%;
-    height: 370px;
-    position: relative;
-    float: left;
-}
-.speakerDivA {
-    position: absolute;
-    top: 240px;
-    left: 15px;
-    background-color: #EAECCA;
-    padding: 10px 10px 0 10px;
-    border: 1px solid #285F6F;
-    border-radius: 5px;
-}
-.spkSecD {
-    width: 20%;
-    height: 370px;
-    position: relative;
-    float: right;
-}
-.speakerDivD {
-    position: absolute;
-    top: 240px;
-    left: 15px;
-    background-color: #EAECCA;
-    padding: 10px 10px 0 10px;
+    padding: 5px 25px;
     border: 1px solid #285F6F;
     border-radius: 5px;
 }
 .speakerImage {
-    width: 100%;
-    height: 350px;
+    width: 95%;
 }
 .speakerImage img {
     width: 100%;
-    height: 320px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px double #285F6F;
 }
 .nameStyle {
     font-style: italic;
@@ -260,13 +238,14 @@
 
 .logoDisplay {
     margin-bottom: 70px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
 }
 .logoDisplay img {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
+    opacity: .7;
+    border-radius: 50%;
+
 }
 
 /* CONTACT */
@@ -296,26 +275,27 @@
     border-radius: 10px;
     border: 5px double #285F6F;
     color: white;
+    margin-bottom: 30px;
 }
 #male {
-    width: 10%;
-    margin-bottom: 50px;
+    width: 30px;
+    margin-bottom: 30px;
 }
 
 /* SUBSCRIBE */
 
 .rowSubscribe {
     text-align: center;
-    margin: 50px 0;
+    margin: 70px 0 50px 0;
 }
 .subscribeInput {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #subInput {
     width: 40%;
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
  
 /* Footer */
@@ -325,16 +305,16 @@ footer {
     text-align: center;
     background-color: #285F6F;
     color: white;
-    padding: 100px 0;
-    font-size: 1.2rem;
+    padding: 80px 0;
+    font-size: .8em;
 
 }
 .ftp {
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
 }
 .iconStyle {
     color: white;
-    font-size: 1.5rem;
-    margin: 5px;
+    font-size: 1.2rem;
+    margin: 3px;
 }
